@@ -1,0 +1,68 @@
+{
+  "model": "GradientBoosting (fallback)",
+  "metrics": {
+    "Random Forest": {
+      "R2": 0.9774356733981766,
+      "RMSE": 4.340389990370667,
+      "MAE": 1.5116800248815156
+    },
+    "GradientBoosting (fallback)": {
+      "R2": 0.9753717285642195,
+      "RMSE": 4.5345535019397625,
+      "MAE": 1.6815908732797706
+    },
+    "Ridge Regression": {
+      "R2": 0.9250714229774886,
+      "RMSE": 7.9093593430626,
+      "MAE": 4.116184086595537
+    }
+  },
+  "cv_r2_mean": 0.9727039955771977,
+  "cv_r2_std": 0.003165967882135939,
+  "cleaning_report": {
+    "raw_rows": 2174,
+    "duplicates_removed": 40,
+    "missing_before": {
+      "Annual_Rainfall": 21,
+      "Fertilizer": 21,
+      "Pesticide": 21
+    },
+    "outliers_removed": 25,
+    "clean_rows": 2109
+  },
+  "crops": [
+    "Arhar/Tur",
+    "Bajra",
+    "Cotton(lint)",
+    "Groundnut",
+    "Maize",
+    "Potato",
+    "Rice",
+    "Soybean",
+    "Sugarcane",
+    "Wheat"
+  ],
+  "states": [
+    "Andhra Pradesh",
+    "Bihar",
+    "Gujarat",
+    "Haryana",
+    "Karnataka",
+    "Madhya Pradesh",
+    "Maharashtra",
+    "Punjab",
+    "Rajasthan",
+    "Tamil Nadu",
+    "Uttar Pradesh",
+    "West Bengal"
+  ],
+  "seasons": [
+    "Kharif",
+    "Rabi",
+    "Whole Year"
+  ],
+  "year_range": [
+    1997,
+    2020
+  ]
+}
